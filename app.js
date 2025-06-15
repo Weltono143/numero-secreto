@@ -10,7 +10,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', h1);
+    exibirTextoNaTela(h1);
     exibirTextoNaTela('p', `Escolha um número entre 1 e ${numeroLimite}`);
 }
 
